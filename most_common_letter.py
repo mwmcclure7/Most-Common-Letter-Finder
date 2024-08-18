@@ -1,6 +1,6 @@
 from pprint import pprint
 
-file = open('words_alpha.txt', 'r')
+file = open(input("Enter the file name: "), 'r')
 words = file.read().splitlines()
 file.close()
 connected_words = ''
